@@ -40,18 +40,14 @@
 <br/>
 
 ### 🚀 Featured Projects
+- 🔗 **[multi-stage-etl-pipeline](https://github.com/zaynisthatu/multi-stage-etl-pipeline)**
+  <br/> *Multi-stage ETL pipeline with resume safety. Node.js scraper (5 parallel workers, min_id cursor resume) → Python extractor (100-thread parallel, 5 auto-detected modules) → MEGA cloud upload. AUTO_BOT orchestrates chunked batch runs with 17-min cooldown.*
 
-- 🔗 **[distributed-batch-pipeline](https://github.com/zaynisthatu/distributed-batch-pipeline)**
-  <br/> *Multi-stage data pipeline with resume safety. Node.js scraper (5 parallel workers) → Python extractor (100-thread parallel) → MEGA cloud upload. Orchestrated with a 17-min cooldown auto-bot.*
-  
-- 🔗 **[megacmd-tk-workflow](https://github.com/zaynisthatu/megacmd-tk-wokflow)**
-  <br/> *TikTok data collection on GitHub Actions. Triggers 20 parallel jobs via matrix strategy with automated, timestamped MEGAcmd uploads and session-based auth.*
+- 🔗 **[social-intelligence-pipeline](https://github.com/zaynisthatu/social-intelligence-pipeline)**
+  <br/> *Distributed content extraction pipeline on GitHub Actions. 20-node matrix strategy, async Python engine (httpx + yt-dlp + ffmpeg), timestamped MEGA cloud uploads, master ledger committed back to repo after each run.*
 
-- 🔗 **[megacmd-tk-prof-workflow](https://github.com/zaynisthatu/megacmd-tk-prof-workflow)**
-  <br/> *Profile-focused pipeline variant. Features scheduled cron triggers, structured input routing, and zero-touch automated cloud syncing.*
-
-<br/>
-
+- 🔗 **[influencer-research-pipeline](https://github.com/zaynisthatu/influencer-research-pipeline)**
+  <br/> *Profile-based extraction pipeline with structured input taxonomy. Filename-driven output categorization, SQLite persistent index, 20-node GitHub Actions matrix, automated MEGA cloud sync.*
 ### 📊 GitHub Stats
 
 <p align="center">
