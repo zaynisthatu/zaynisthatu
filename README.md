@@ -48,10 +48,3 @@
 
 - 🔗 **[influencer-research-pipeline](https://github.com/zaynisthatu/influencer-research-pipeline)**
   <br/> *Profile-based extraction pipeline with structured input taxonomy. Filename-driven output categorization, SQLite persistent index, 20-node GitHub Actions matrix, automated MEGA cloud sync.*
-### 📊 GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/zaynisthatu">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=zaynisthatu&theme=radical&hide_border=true" alt="Zain's GitHub Streak" />
-  </a>
-</p>
