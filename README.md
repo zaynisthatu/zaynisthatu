@@ -40,7 +40,7 @@
 - 🔗 **[vault-pipeline](https://github.com/zaynisthatu/vault-pipeline)**
   <br/> *A staged DevOps pipeline built around a self-built Node.js/React/SQLite app: multi-stage Docker build and GHCR, a 3-node k3d Kubernetes cluster, ArgoCD GitOps, rolling updates, and observability. Every stage documents the real bugs hit and how they were fixed (Challenge → Root Cause → Fix → Source), plus a "Known gaps" section.*
 
-- 🔗 **Data engineering practice** (each repo runs locally and shows real outputs)
+- 🔗 **Data engineering practice** (learning projects, not production pipelines)
   - **[databricks-pyspark-gold-layer](https://github.com/zaynisthatu/databricks-pyspark-gold-layer)**: PySpark exercise that turns nested JSON post exports into a clean "gold" table (union, null and duplicate handling, enrichment from a notes file). Synthetic data; runs locally, with a Databricks notebook version.
   - **[sql-postgresql-practice](https://github.com/zaynisthatu/sql-postgresql-practice)**: 23 PostgreSQL queries (joins, self joins, subqueries, aggregates) with their real outputs, plus a log of my mistakes with the actual error messages.
   - **[data-cleaning-etl-notebooks](https://github.com/zaynisthatu/data-cleaning-etl-notebooks)**: Colab notebooks that clean public datasets with pandas and load a table into Supabase (Postgres).
