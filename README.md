@@ -40,7 +40,7 @@
 - 🔗 **[vault-pipeline](https://github.com/zaynisthatu/vault-pipeline)**
   <br/> *A staged DevOps pipeline built around a self-built Node.js/React/SQLite app: multi-stage Docker build and GHCR, a 3-node k3d Kubernetes cluster, ArgoCD GitOps, rolling updates, and observability. Every stage documents the real bugs hit and how they were fixed (Challenge → Root Cause → Fix → Source), plus a "Known gaps" section.*
 
-- 🔗 **Data engineering practice** (learning projects, not production pipelines)
-  - **[databricks-pyspark-gold-layer](https://github.com/zaynisthatu/databricks-pyspark-gold-layer)**: PySpark exercise that turns nested JSON post exports into a clean "gold" table (union, null and duplicate handling, enrichment from a notes file). Synthetic data; runs locally, with a Databricks notebook version.
-  - **[sql-postgresql-practice](https://github.com/zaynisthatu/sql-postgresql-practice)**: 23 PostgreSQL queries (joins, self joins, subqueries, aggregates) with their real outputs, plus a log of my mistakes with the actual error messages.
-  - **[data-cleaning-etl-notebooks](https://github.com/zaynisthatu/data-cleaning-etl-notebooks)**: Colab notebooks that clean public datasets with pandas and load a table into Supabase (Postgres).
+- 🔗 **Data engineering projects**
+  - **[databricks-pyspark-gold-layer](https://github.com/zaynisthatu/databricks-pyspark-gold-layer)**: PySpark pipeline that merges two post-export schemas into one deduplicated gold table and enriches it with video-analysis tags. Databricks notebook plus a local version.
+  - **[sql-postgresql-practice](https://github.com/zaynisthatu/sql-postgresql-practice)**: 23 PostgreSQL queries (joins, self joins, subqueries, aggregates) with recorded output and a log of errors with their fixes.
+  - **[data-cleaning-etl-notebooks](https://github.com/zaynisthatu/data-cleaning-etl-notebooks)**: Colab notebooks that clean and merge public datasets with pandas and load a table into Supabase (Postgres).
