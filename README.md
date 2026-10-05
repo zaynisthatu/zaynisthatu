@@ -40,7 +40,7 @@
 - 🔗 **[vault-pipeline](https://github.com/zaynisthatu/vault-pipeline)**
   <br/> *A staged DevOps pipeline built around a self-built Node.js/React/SQLite app: multi-stage Docker build and GHCR, a 3-node k3d Kubernetes cluster, ArgoCD GitOps, rolling updates, and observability. Every stage documents the real bugs hit and how they were fixed (Challenge → Root Cause → Fix → Source), plus a "Known gaps" section.*
 
-- 🔗 **Data & automation pipelines** (Python, Node.js, GitHub Actions)
-  - **[multi-stage-etl-pipeline](https://github.com/zaynisthatu/multi-stage-etl-pipeline)**: Node.js scraper (5 parallel workers, cursor-based resume) → Python extractor (100 threads) → MEGA cloud upload, with chunked batch runs.
-  - **[social-intelligence-pipeline](https://github.com/zaynisthatu/social-intelligence-pipeline)**: content extraction run as a GitHub Actions CI/CD workflow (matrix jobs), async Python engine (httpx, yt-dlp, ffmpeg), and a ledger committed back to the repo after each run.
-  - **[influencer-research-pipeline](https://github.com/zaynisthatu/influencer-research-pipeline)**: profile-based extraction with filename-driven output categories, a SQLite index, a GitHub Actions workflow, and automated cloud sync.
+- 🔗 **Data engineering practice** (each repo runs locally and shows real outputs)
+  - **[databricks-pyspark-gold-layer](https://github.com/zaynisthatu/databricks-pyspark-gold-layer)**: PySpark exercise that turns nested JSON post exports into a clean "gold" table (union, null and duplicate handling, enrichment from a notes file). Synthetic data; runs locally, with a Databricks notebook version.
+  - **[sql-postgresql-practice](https://github.com/zaynisthatu/sql-postgresql-practice)**: 23 PostgreSQL queries (joins, self joins, subqueries, aggregates) with their real outputs, plus a log of my mistakes with the actual error messages.
+  - **[data-cleaning-etl-notebooks](https://github.com/zaynisthatu/data-cleaning-etl-notebooks)**: Colab notebooks that clean public datasets with pandas and load a table into Supabase (Postgres).
